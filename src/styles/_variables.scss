@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import './src/styles/reset.scss';
+$fontColor1: #fe855f;
+$componentsBG: #fff;
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.homescreen {
+  &__background {
+    background: radial-gradient(#ff5c3b, #d00404);
+    width: 100%;
+    height: 100vh;
+  }
+}
